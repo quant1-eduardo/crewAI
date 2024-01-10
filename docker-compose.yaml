@@ -7,9 +7,9 @@ services:
       - .:/api
     environment:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
-    command: "make run-dev"
+    command: "make run-api"
     ports:
-      - 8080:8000
+      - 8000:8000
   
      
   
